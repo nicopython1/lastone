@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoiffureAI - Réceptionniste IA pour Salons & Restaurants | Prise de RDV Automatique</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Réceptionniste IA 24/7 pour salons de coiffure et restaurants. Prise de rendez-vous automatique, synchronisation agenda, confirmation SMS/Email. Essai gratuit 14 jours.">
+    <meta name="keywords" content="réceptionniste IA, salon coiffure, prise rendez-vous automatique, IA conversationnelle, gestion agenda, restaurant, booking">
+    <meta name="author" content="CoiffureAI">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="fr">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="CoiffureAI - Réceptionniste IA pour Salons & Restaurants">
+    <meta property="og:description" content="Automatisez vos prises de rendez-vous avec notre réceptionniste IA 24/7. Compatible salons de coiffure et restaurants.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://coiffureai.fr">
+    <meta property="og:image" content="https://coiffureai.fr/images/og-image.jpg">
+    <meta property="og:site_name" content="CoiffureAI">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CoiffureAI - Réceptionniste IA pour Salons & Restaurants">
+    <meta name="twitter:description" content="Automatisez vos prises de rendez-vous avec notre réceptionniste IA 24/7.">
+    <meta name="twitter:image" content="https://coiffureai.fr/images/twitter-card.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "CoiffureAI",
+        "description": "Réceptionniste IA 24/7 pour salons de coiffure et restaurants. Prise de rendez-vous automatique.",
+        "url": "https://coiffureai.fr",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "EUR",
+            "priceValidUntil": "2024-12-31"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "127"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cut"></i>
+                <span>CoiffureAI</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Fonctionnalités</a>
+                <a href="#process" class="nav-link">Comment ça marche</a>
+                <a href="#pricing" class="nav-link">Tarifs</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-cta">
+                <button class="btn btn-primary">Démo gratuite</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-robot"></i>
+                    <span>IA Réceptionniste</span>
+                </div>
+                <h1 class="hero-title">
+                    Votre salon n'arrête plus jamais
+                    <span class="gradient-text">de prendre rendez-vous</span>
+                </h1>
+                <p class="hero-description">
+                    Réceptionniste IA 24/7 qui gère vos appels, prend rendez-vous et vérifie la disponibilité automatiquement. 
+                    Focus sur vos clients, nous gérons les réservations.
+                </p>
+                <div class="hero-advantages">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h3>Réceptionniste IA 24/7</h3>
+                            <p>Vos clients peuvent prendre rendez-vous à toute heure, même en dehors des heures d'ouverture</p>
+                        </div>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h3>Intégration automatique</h3>
+                            <p>Synchronisation en temps réel avec votre agenda et envoi automatique de confirmations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Essai gratuit 14 jours
+                    </button>
+                    <a href="#contact" class="btn btn-outline btn-large">
+                        <i class="fas fa-info-circle"></i>
+                        Ça m'intéresse
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comment ça marche</h2>
+                <p>Un processus simple en 4 étapes pour automatiser vos réservations</p>
+            </div>
+            <div class="process-container">
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>1. Client appelle</h3>
+                            <p>Votre client compose le numéro habituel de votre salon</p>
+                        </div>
+                        <div class="step-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>2. IA répond</h3>
+                            <p>Notre réceptionniste IA répond instantanément avec votre nom de salon</p>
+                        </div>
+                        <div class="step-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>3. Prise de RDV</h3>
+                            <p>L'IA pose les bonnes questions et vérifie votre agenda en temps réel</p>
+                        </div>
+                        <div class="step-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>4. Confirmation</h3>
+                            <p>Envoi automatique de confirmation par SMS/email au client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="process-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="sms-interface">
+                                <div class="sms-header">
+                                    <div class="sms-contact">
+                                        <div class="contact-avatar">P</div>
+                                        <div class="contact-details">
+                                            <span class="contact-name">Pierre</span>
+                                            <span class="sms-status">Salon Paris</span>
+                                        </div>
+                                    </div>
+                                    <div class="sms-header-actions">
+                                        <i class="fas fa-phone"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                                <div class="sms-content">
+                                    <div class="sms-time">jeu. 4 sept. à 14:32</div>
+                                    <div class="sms-message">
+                                        <div class="sms-text">
+                                            <strong>✅ Rendez-vous confirmé !</strong><br><br>
+                                            <strong>Salon Paris</strong><br>
+                                            15 Rue de la Paix, 75001 Paris<br><br>
+                                            📅 <strong>Mercredi 15 Janvier</strong><br>
+                                            🕐 <strong>14h30</strong><br>
+                                            💇‍♀️ <strong>Coupe + Brushing</strong><br><br>
+                                            Merci Pierre ! À très bientôt 😊
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fonctionnalités avancées</h2>
+                <p>Tout ce dont votre salon a besoin pour une gestion parfaite</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Disponibilité 24/7</h3>
+                    <p>Vos clients peuvent réserver même en dehors des heures d'ouverture</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Synchronisation Agenda</h3>
+                    <p>Intégration Google Calendar, Outlook et tous vos outils de planning</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Personnalisation</h3>
+                    <p>Adapté à votre salon : services, tarifs, créneaux, messages</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="benefits-title">Pourquoi choisir CoiffureAI ?</h2>
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Gain de temps</h4>
+                                <p>Fini les interruptions pendant vos prestations</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Plus de revenus</h4>
+                                <p>Réservez même quand le salon est fermé</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Zéro formation</h4>
+                                <p>Installation en 5 minutes, prêt à l'emploi</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Support 24/7</h4>
+                                <p>Notre équipe vous accompagne à chaque étape</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-visual">
+                    <div class="dashboard-mockup">
+                        <div class="dashboard-header">
+                            <h4>Tableau de bord CoiffureAI</h4>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="metric-card">
+                                <span class="metric-value">47</span>
+                                <span class="metric-label">RDV aujourd'hui</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-value">€2,340</span>
+                                <span class="metric-label">CA prévu</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-value">12</span>
+                                <span class="metric-label">Nouveaux clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-demo" id="video-demo">
+        <div class="container">
+            <div class="video-content">
+                <div class="video-header">
+                    <h2>Voir CoiffureAI en action</h2>
+                    <p>Découvrez comment notre réceptionniste IA gère vos réservations</p>
+                </div>
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <div class="video-frame">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Vidéo de démonstration</p>
+                            <span>Format vertical - 2 minutes</span>
+                        </div>
+                    </div>
+                    <div class="video-description">
+                        <h4>Ce que vous verrez :</h4>
+                        <ul>
+                            <li>Simulation d'appel client</li>
+                            <li>Prise de rendez-vous automatique</li>
+                            <li>Vérification de disponibilité</li>
+                            <li>Envoi de confirmation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarifs simples et transparents</h2>
+                <p>Choisissez la formule qui correspond à votre salon</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Populaire</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">€</span>
+                            <span class="amount">49,99</span>
+                            <span class="period">/mois</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Jusqu'à 500 appels/mois</li>
+                            <li><i class="fas fa-check"></i> Multi-agenda (Google, Outlook)</li>
+                            <li><i class="fas fa-check"></i> SMS + Email confirmations</li>
+                            <li><i class="fas fa-check"></i> 1 salon</li>
+                            <li><i class="fas fa-check"></i> Support prioritaire</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Commencer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq-content">
+                <div class="faq-header">
+                    <h2>Questions Fréquentes</h2>
+                    <p>Retrouvez les réponses aux questions les plus courantes sur CoiffureAI</p>
+                </div>
+                <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Que se passe-t-il si un client pose une question technique complexe ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Si la question est technique et ne fait pas partie des informations données à l'IA, nous donnons la possibilité à votre client d'être redirigé vers vous directement. Cela évite de donner de fausses informations et garantit une expérience client de qualité. L'IA peut également prendre un message détaillé pour vous permettre de rappeler le client.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Puis-je tester le service avant de souscrire ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolument ! Nous vous proposons un essai gratuit de plusieurs semaines afin que vous puissiez vous faire une opinion complète sur le processus. Vous pourrez tester toutes les fonctionnalités, voir comment l'IA interagit avec vos clients, et évaluer l'impact sur votre activité avant de vous engager.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment mettez-vous en place le système ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nous vous proposons de nous rencontrer 20-30 minutes à votre convenance pour discuter du fonctionnement de votre salon, vos services, tarifs et créneaux. À partir de ces informations, nous configurons et réglons le système selon vos spécificités, puis nous l'installons automatiquement. Vous n'avez rien à faire, tout est pris en charge !</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>L'IA peut-elle gérer les annulations et modifications de rendez-vous ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, notre réceptionniste IA peut gérer les annulations et modifications de rendez-vous. Elle vérifie automatiquement votre agenda, propose de nouveaux créneaux disponibles, et confirme les changements par SMS/email. Si la modification est complexe, elle peut également mettre le client en relation directe avec vous.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Combien de temps faut-il pour voir les premiers résultats ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Les premiers résultats sont visibles dès la première semaine ! Vous constaterez immédiatement une réduction des interruptions pendant vos prestations. Après 2-3 semaines, vous verrez une augmentation du nombre de rendez-vous pris en dehors des heures d'ouverture, et après un mois, une amélioration significative de votre taux de remplissage.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-header">
+                <h2>Cette automatisation vous plaît ?</h2>
+                <p>Contactez-nous ci-dessous pour la moindre question ou pour discuter de la manière dont nous pouvons la mettre en place pour votre salon.</p>
+            </div>
+            <div class="cta-content">
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <div class="form-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Contactez-nous</h3>
+                    </div>
+                    <p class="form-subtitle">Préférez-vous qu'on vous recontacte ?</p>
+                    <p class="form-description">Laissez-nous vos informations et nous vous répondrons rapidement.</p>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="fullname">Nom complet *</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Votre nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Entreprise</label>
+                            <input type="text" id="company" name="company" placeholder="Votre entreprise">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Votre message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="contact-info-section">
+                    <div class="contact-info-header">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Nos Coordonnées</h3>
+                    </div>
+                    <p class="contact-info-description">Contactez-nous directement par téléphone ou email pour toute question.</p>
+                    <p class="contact-info-subtitle">Disponible du lundi au vendredi de 9h à 18h</p>
+                    <div class="contact-details">
+                        <div class="contact-detail-item email-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nicolas@aicoiffure.be</span>
+                        </div>
+                        <div class="contact-detail-item phone-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+32 474 41 75 40 (WhatsApp)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cut"></i>
+                        <span>CoiffureAI</span>
+                    </div>
+                    <p>La solution IA qui transforme la gestion des rendez-vous pour les salons de coiffure et restaurants.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Produit</h4>
+                    <ul>
+                        <li><a href="#features">Fonctionnalités</a></li>
+                        <li><a href="#pricing">Tarifs</a></li>
+                        <li><a href="#">Intégrations</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> hello@coiffureai.fr</p>
+                        <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CoiffureAI. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">CGV</a>
+                    <a href="#">Confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
